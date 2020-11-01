@@ -19,7 +19,10 @@
                 <img src="<?= base_url('assets/foto/' . $this->db->where('id_admin', $this->session->userdata('id_admin'))->get('admin')->row()->foto) ?>" class=" elevation-2" alt="User Image" />
             </div>
             <div class="info text-center w-100">
-                <a href="#" class="d-block"><?= $this->db->where('id_admin', $this->session->userdata('id_admin'))->get('admin')->row()->nama_admin ?></a>
+                <a href="#" class="d-block">
+                    <h1> <?= $this->db->where('id_admin', $this->session->userdata('id_admin'))->get('admin')->row()->nama_admin ?>
+                    </h1>
+                </a>
             </div>
         </div>
 
