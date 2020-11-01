@@ -69,9 +69,9 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
 } else {
     // define('ENVIRONMENT', 'production');
     define('ENVIRONMENT', 'development');
-    define('DB_USER', 'id14860863_root');
-    define('DB_PASS', '0PSZ-TUu)q<Q-|!0');
-    define('DB', 'id14860863_saw');
+    define('DB_USER', 'agunglap_root');
+    define('DB_PASS', 'IGY0;mOYDaUF');
+    define('DB', 'agunglap_saw');
 
     define('EMAIL_HOST', 'supernova.indowebsite.net');
     define('EMAIL_USER', 'admin@agunglaptopku.my.id');
