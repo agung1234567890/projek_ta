@@ -1,0 +1,12 @@
+<div style="flex: 1;margin-top: 5%;">
+    <img src="<?= site_url('assets/foto/logo2.png') ?>" style="width: 20%;">
+    <h1 style="text-decoration: underline; ">Pengertian Laptop</h1>
+    <p style="text-align: justify; text-indent: 45px; font-family: 'Times New Roman'; font-size: 20px; color: black;">Laptop atau komputer jinjing adalah komputer bergerak yang berukuran relatif kecil dan ringan, beratnya berkisar dari 1–6 kg, tergantung pada ukuran, bahan, dan spesifikasi laptop tersebut. Sumber daya laptop berasal dari baterai atau adaptor A/C yang dapat digunakan untuk mengisi ulang baterai dan menyalakan laptop itu sendiri. Baterai laptop pada umumnya dapat bertahan sekitar 2 hingga 6 jam sebelum akhirnya habis, tergantung dari cara pemakaian, spesifikasi, dan ukuran baterai. Laptop terkadang disebut juga dengan komputer notebook atau notebook saja.</p>
+
+    <p style="text-align: justify; text-indent: 45px; font-family: 'Times New Roman'; font-size: 20px; color: black;">Sebagai komputer pribadi, laptop memiliki fungsi yang sama dengan komputer desktop (desktop computers) pada umumnya. Komponen yang terdapat di dalamnya sama persis dengan komponen pada desktop, hanya saja ukurannya diperkecil, dijadikan lebih ringan, lebih tidak panas, dan lebih hemat daya.</p>
+
+    <p style="text-align: justify; text-indent: 45px; font-family: 'Times New Roman'; font-size: 20px; color: black;">Laptop kebanyakan menggunakan layar LCD (Liquid Crystal Display) berukuran 10 inci hingga 17 inci tergantung dari ukuran laptop itu sendiri. Selain itu, papan ketik yang terdapat pada laptop juga kadang-kadang dilengkapi dengan papan sentuh yang berfungsi sebagai "pengganti" tetikus. Papan ketik dan tetikus tambahan dapat dipasang melalui soket Universal Serial Bus maupun PS/2 jika tersedia.</p>
+
+    <p style="text-align: justify; text-indent: 45px; font-family: 'Times New Roman'; font-size: 20px; color: black;">Berbeda dengan komputer desktop, laptop memiliki komponen pendukung yang didesain secara khusus untuk mengakomodasi sifat komputer jinjing yang portabel. Sifat utama yang dimiliki oleh komponen penyusun laptop adalah ukuran yang kecil, hemat konsumsi energi, dan efisien. Komputer jinjing biasanya harganya lebih mahal, tergantung dari merek dan spesifikasi komponen penyusunnya, walaupun demikian, harga komputer jinjing pun semakin mendekati desktop seiring dengan semakin tingginya tingkat permintaan konsumen.</p>
+
+</div>
