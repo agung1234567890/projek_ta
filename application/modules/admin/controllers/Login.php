@@ -107,6 +107,7 @@ class Login extends MX_Controller
             if (empty($data)) {
                 $this->session->set_flashdata('eror', 'Data tidak ditemukan');
                 redirect('admin/login/lupapassword');
+                die();
             }
 
 
