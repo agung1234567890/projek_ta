@@ -106,8 +106,6 @@ class Login extends MX_Controller
             $data = $this->db->where('email', $this->input->post('email'))->get('admin')->row();
             if (empty($data)) {
                 $this->session->set_flashdata('eror', 'Data tidak ditemukan');
-                echo $this->input->post('email');
-                die();
                 redirect('admin/login/lupapassword');
             }
 

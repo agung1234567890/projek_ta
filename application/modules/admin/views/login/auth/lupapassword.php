@@ -34,7 +34,7 @@
                                 <?php } ?>
                                 <form class="user" method="POST" action="<?= base_url('admin/login/lupapassword_action'); ?>">
                                     <div class="form-group">
-                                        <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Username">
+                                        <input type="text" class="form-control form-control-user" id="email" name="email" placeholder="email">
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-user btn-block">
                                         Send email
