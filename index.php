@@ -67,8 +67,8 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     define('EMAIL_USER', 'admin@agunglaptopku.my.id');
     define('EMAIL_PASS', 'agung123');
 } else {
-    // define('ENVIRONMENT', 'production');
-    define('ENVIRONMENT', 'development');
+    define('ENVIRONMENT', 'production');
+    // define('ENVIRONMENT', 'development');
     define('DB_USER', 'agunglap_root');
     define('DB_PASS', 'IGY0;mOYDaUF');
     define('DB', 'agunglap_saw');
