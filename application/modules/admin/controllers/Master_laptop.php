@@ -118,6 +118,11 @@ class Master_laptop extends MX_Controller
                 $harga_laptop = $this->input->post('harga_laptop');
                 $spesifikasi_laptop = $this->input->post('spesifikasi_laptop');
 
+                $cek = $this->db->where('merk', $merk_laptop)->get('laptop')->row();
+                if (!empty($cek)) {
+                    $this->session->set_flashdata('gagal', 'Data sudah ada');
+                    $this->tambah();
+                }
                 // ------------------------------------------------------------------------
                 $data = [
                     'merk' => $merk_laptop,
@@ -302,8 +307,8 @@ class Master_laptop extends MX_Controller
     public function cetak_pdf()
     {
         $data = [
-            'data_laptop'=>$this->db->get('laptop')->result()
+            'data_laptop' => $this->db->get('laptop')->result()
         ];
-        $this->load->view('admin/master_laptop/cetak_pdf',$data);
+        $this->load->view('admin/master_laptop/cetak_pdf', $data);
     }
 }
