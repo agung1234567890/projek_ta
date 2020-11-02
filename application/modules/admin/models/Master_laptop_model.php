@@ -7,10 +7,10 @@ class Master_laptop_model extends CI_Model
 
         $this->db->from('laptop');
 
-        // $this->db->group_start();
-        // $this->db->like('id_katalog_rs', $q);
+        $this->db->group_start();
+        $this->db->like('merk', $q);
         // $this->db->or_like('totalberat', $q);
-        // $this->db->group_end();
+        $this->db->group_end();
         return $this->db->count_all_results();
     }
     function limit_data($limit, $start = 0, $q = null)
@@ -21,10 +21,10 @@ class Master_laptop_model extends CI_Model
 			laptop.*
 		');
 
-        // $this->db->group_start();
-        // $this->db->like('id_katalog_rs', $q);
+        $this->db->group_start();
+        $this->db->like('merk', $q);
         // $this->db->or_like('totalberat', $q);
-        // $this->db->group_end();
+        $this->db->group_end();
         $this->db->limit($limit, $start);
 
         return $this->db->get('laptop')->result();

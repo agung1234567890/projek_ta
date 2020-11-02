@@ -6,6 +6,10 @@
         <a href="<?= site_url('admin/master_laptop/tambah') ?>" class="mb-4 btn btn-sm btn-primary">Tambah</a>
         <a href="<?= site_url('admin/master_laptop/excel') ?>" class="mb-4 btn btn-sm btn-danger">Export Excel</a>
         <a href="<?= site_url('admin/master_laptop/cetak_pdf') ?>" class="mb-4 btn btn-sm btn-success">Print PDF</a>
+        <form action="">
+            <input type="text" name="q" id="q" class="form-control form-control-sm">
+            <button type="submit" class="btn btn-sm btn-primary">Cari</button>
+        </form>
         <ul class="list-group">
             <?php foreach ($data_master_laptop as $k) { ?>
 
