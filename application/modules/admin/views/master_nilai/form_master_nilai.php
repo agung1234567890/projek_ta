@@ -168,7 +168,12 @@
                     <option value="4" <?= $vga == 4 ? 'selected' : '' ?>> NVDIA geforce mx250-2GB</option>
                     <option value="5" <?= $vga == 5 ? 'selected' : '' ?>> NVDIA geforce mx330-2GB</option>
                     <option value="6" <?= $vga == 6 ? 'selected' : '' ?>> NVDIA geforce mx350-2GB</option>
-                    <option value="7" <?= $vga == 7 ? 'selected' : '' ?>> NVDIA geforce gtx1650-4GB DDR6</option>
+                    <option value="7" <?= $vga == 7 ? 'selected' : '' ?>> NVDIA geforce gtx1650-4GB</option>
+                    <option value="8" <?= $vga == 8 ? 'selected' : '' ?>> NVDIA geforce gtx1650Ti 4GB</option>
+                    <option value="9" <?= $vga == 9 ? 'selected' : '' ?>> NVDIA geforce gtx1660Ti 6GB Max Q</option>
+                    <option value="10" <?= $vga == 10 ? 'selected' : '' ?>> NVDIA geforce rtx2060 6GB</option>
+                    <option value="11" <?= $vga == 11 ? 'selected' : '' ?>> NVDIA geforce rtx2060 6GB Max Q</option>
+                    <option value="12" <?= $vga == 12 ? 'selected' : '' ?>> NVDIA geforce rtx2070 8GB Super Max Q</option>
 
                 </select>
             </div>
