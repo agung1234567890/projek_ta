@@ -103,10 +103,14 @@
                     <option value="6" <?= $processor == 6 ? 'selected' : '' ?>> amd Athlon 3150U </option>
                     <option value="7" <?= $processor == 7 ? 'selected' : '' ?>> amd E2-7015U </option>
                     <option value="8" <?= $processor == 8 ? 'selected' : '' ?>> amd Ryzen 3-3250U </option>
-                    <option value="9" <?= $processor == 9 ? 'selected' : '' ?>> amd Ryzen 5-3500U </option>
-                    <option value="10" <?= $processor == 10 ? 'selected' : '' ?>> amd Ryzen 5-4500U </option>
-                    <option value="11" <?= $processor == 11 ? 'selected' : '' ?>> amd Ryzen 5-4600H </option>
-                    <option value="12" <?= $processor == 12 ? 'selected' : '' ?>> amd Ryzen 7-4700H </option>
+                    <option value="9" <?= $processor == 9 ? 'selected' : '' ?>> amd Ryzen 3-4300U </option>
+                    <option value="10" <?= $processor == 10 ? 'selected' : '' ?>> amd Ryzen 5-3500U </option>
+                    <option value="11" <?= $processor == 11 ? 'selected' : '' ?>> amd Ryzen 5-3550H </option>
+                    <option value="12" <?= $processor == 12 ? 'selected' : '' ?>> amd Ryzen 5-4500U </option>
+                    <option value="13" <?= $processor == 13 ? 'selected' : '' ?>> amd Ryzen 5-4600H </option>
+                    <option value="14" <?= $processor == 14 ? 'selected' : '' ?>> amd Ryzen 7-4700H </option>
+                    <option value="15" <?= $processor == 15 ? 'selected' : '' ?>> amd Ryzen 7-4800H </option>
+                    <option value="16" <?= $processor == 16 ? 'selected' : '' ?>> amd Ryzen 7-4800U </option>
 
 
                     <option value="1" <?= $processor == 1 ? 'selected' : '' ?>> intel dual core n4000 </option>
@@ -116,12 +120,17 @@
                     <option value="5" <?= $processor == 5 ? 'selected' : '' ?>> core i3-8265u </option>
                     <option value="6" <?= $processor == 6 ? 'selected' : '' ?>> core i3-1005G1 </option>
                     <option value="7" <?= $processor == 7 ? 'selected' : '' ?>> core i3-10110u </option>
-                    <option value="8" <?= $processor == 8 ? 'selected' : '' ?>> core i5-9300H </option>
                     <option value="9" <?= $processor == 9 ? 'selected' : '' ?>> core i5-8265U </option>
+                    <option value="8" <?= $processor == 8 ? 'selected' : '' ?>> core i5-9300H </option>
                     <option value="10" <?= $processor == 10 ? 'selected' : '' ?>> core i5-1035G1 </option>
                     <option value="11" <?= $processor == 11 ? 'selected' : '' ?>> core i5-10300H </option>
                     <option value="12" <?= $processor == 12 ? 'selected' : '' ?>> core i5-10210u </option>
-                    <option value="13" <?= $processor == 13 ? 'selected' : '' ?>> core i7-10510u </option>
+                    <option value="13" <?= $processor == 13 ? 'selected' : '' ?>> core i7-8550U </option>
+                    <option value="14" <?= $processor == 14 ? 'selected' : '' ?>> core i7-9750HF </option>
+                    <option value="15" <?= $processor == 15 ? 'selected' : '' ?>> core i7-10510u </option>
+                    <option value="16" <?= $processor == 16 ? 'selected' : '' ?>> core i7-1065G7 </option>
+                    <option value="17" <?= $processor == 17 ? 'selected' : '' ?>> core i7-10750H </option>
+                    <option value="18" <?= $processor == 18 ? 'selected' : '' ?>> core i7-10875H </option>
                 </select>
             </div>
             <!-- <div class="form-group" style="margin-bottom:50px">
