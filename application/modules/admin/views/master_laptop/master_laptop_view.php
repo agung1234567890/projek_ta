@@ -10,7 +10,7 @@
                 <a href="<?= site_url('admin/master_laptop/cetak_pdf') ?>" class="mb-4 btn btn-sm btn-success">Print PDF</a>
             </div>
             <div class="col-md">
-                <form action="" class="w-50">
+                <form action="" class="w-50 text-right">
                     <div class="input-group input-group-sm">
                         <input type="text" name="q" id="q" class="form-control form-control-sm">
                         <button type="submit" class="btn btn-sm btn-primary">Cari</button>
