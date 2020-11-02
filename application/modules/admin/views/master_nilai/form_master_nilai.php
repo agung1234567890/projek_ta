@@ -117,14 +117,14 @@
                     <option value="2" <?= $processor == 2 ? 'selected' : '' ?>> intel dual core n4020 </option>
                     <option value="3" <?= $processor == 3 ? 'selected' : '' ?>> intel quad core n4120 </option>
                     <option value="4" <?= $processor == 4 ? 'selected' : '' ?>> core i3-8130u </option>
-                    <option value="5" <?= $processor == 5 ? 'selected' : '' ?>> core i3-8265u </option>
+                    <option value="5" <?= $processor == 5 ? 'selected' : '' ?>> core i5-8265U </option>
                     <option value="6" <?= $processor == 6 ? 'selected' : '' ?>> core i3-1005G1 </option>
                     <option value="7" <?= $processor == 7 ? 'selected' : '' ?>> core i3-10110u </option>
-                    <option value="9" <?= $processor == 9 ? 'selected' : '' ?>> core i5-8265U </option>
-                    <option value="8" <?= $processor == 8 ? 'selected' : '' ?>> core i5-9300H </option>
-                    <option value="10" <?= $processor == 10 ? 'selected' : '' ?>> core i5-1035G1 </option>
-                    <option value="11" <?= $processor == 11 ? 'selected' : '' ?>> core i5-10300H </option>
-                    <option value="12" <?= $processor == 12 ? 'selected' : '' ?>> core i5-10210u </option>
+                    <option value="8" <?= $processor == 8 ? 'selected' : '' ?>> core i5-1035G1 </option>
+                    <option value="9" <?= $processor == 9 ? 'selected' : '' ?>> core i5-10210u </option>
+                    <option value="10" <?= $processor == 10 ? 'selected' : '' ?>> core i5-9300H </option>
+                    <option value="11" <?= $processor == 11 ? 'selected' : '' ?>> core i5-8265u </option>
+                    <option value="12" <?= $processor == 12 ? 'selected' : '' ?>> core i5-10300H </option>
                     <option value="13" <?= $processor == 13 ? 'selected' : '' ?>> core i7-8550U </option>
                     <option value="14" <?= $processor == 14 ? 'selected' : '' ?>> core i7-9750HF </option>
                     <option value="15" <?= $processor == 15 ? 'selected' : '' ?>> core i7-10510u </option>
@@ -170,10 +170,10 @@
                     <option value="5" <?= $vga == 5 ? 'selected' : '' ?>> NVDIA geforce mx350-2GB</option>
                     <option value="6" <?= $vga == 6 ? 'selected' : '' ?>> NVDIA geforce gtx1650-4GB</option>
                     <option value="7" <?= $vga == 7 ? 'selected' : '' ?>> NVDIA geforce gtx1650Ti 4GB</option>
-                    <option value="8" <?= $vga == 8 ? 'selected' : '' ?>> NVDIA geforce gtx1660Ti 6GB Max Q</option>
-                    <option value="9" <?= $vga == 9 ? 'selected' : '' ?>> NVDIA geforce rtx2060 6GB</option>
-                    <option value="10" <?= $vga == 10 ? 'selected' : '' ?>> NVDIA geforce rtx2060 6GB Max Q</option>
-                    <option value="11" <?= $vga == 1 ? 'selected' : '' ?>> NVDIA geforce rtx2070 8GB Super Max Q</option>
+                    <option value="8" <?= $vga == 8 ? 'selected' : '' ?>> NVDIA geforce gtx1660Ti 6GB </option>
+                    <!-- <option value="9" <?= $vga == 9 ? 'selected' : '' ?>> NVDIA geforce rtx2060 6GB</option>
+                    <option value="10" <?= $vga == 10 ? 'selected' : '' ?>> NVDIA geforce rtx2060 6GB Max Q</option> -->
+                    <option value="9" <?= $vga == 9 ? 'selected' : '' ?>> NVDIA geforce rtx2070 8GB </option>
 
                 </select>
             </div>
