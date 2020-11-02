@@ -88,18 +88,18 @@
                         <th>Nilai</th>
                     </tr>
                     <?php $nomor = 1;
-                    $cek= 0;
-                    $limit=1;
+                    $cek = 0;
+                    $limit = 1;
                     foreach ($data_rekomendasi as $k) {
                         if (!empty($cek)) {
-                            if ($cek==$k['nilai']) {
+                            if ($cek == $k['nilai']) {
                                 $cek = $k['nilai'];
                                 // echo "ada";
-                            }else{
+                            } else {
                                 $nomor++;
                                 $cek = $k['nilai'];
                             }
-                        }else{
+                        } else {
                             $cek = $k['nilai'];
                         }
                         $laptop = $this->db->where('id_laptop', $k['id_laptop'])->get('laptop')->row();
@@ -114,11 +114,13 @@
                             <td><?= $k['nilai'] ?></td>
                         </tr>
 
-                    <?php 
-                    if ($limit>=1) {//h
-                        break;//h
-                    }else{$limit++;}//h
-                     } ?>
+                    <?php
+                        if ($limit >= 10) { //h
+                            break; //h
+                        } else {
+                            $limit++;
+                        } //h
+                    } ?>
                 </table>
             </div>
             <div class="card-footer">
