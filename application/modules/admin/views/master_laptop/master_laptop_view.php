@@ -3,13 +3,21 @@
         <h4>List laptop</h4>
     </div>
     <div class="body p-4">
-        <a href="<?= site_url('admin/master_laptop/tambah') ?>" class="mb-4 btn btn-sm btn-primary">Tambah</a>
-        <a href="<?= site_url('admin/master_laptop/excel') ?>" class="mb-4 btn btn-sm btn-danger">Export Excel</a>
-        <a href="<?= site_url('admin/master_laptop/cetak_pdf') ?>" class="mb-4 btn btn-sm btn-success">Print PDF</a>
-        <form action="" class="w-50">
-            <input type="text" name="q" id="q" class="form-control form-control-sm">
-            <button type="submit" class="btn btn-sm btn-primary">Cari</button>
-        </form>
+        <div class="row">
+            <div class="col-md">
+                <a href="<?= site_url('admin/master_laptop/tambah') ?>" class="mb-4 btn btn-sm btn-primary">Tambah</a>
+                <a href="<?= site_url('admin/master_laptop/excel') ?>" class="mb-4 btn btn-sm btn-danger">Export Excel</a>
+                <a href="<?= site_url('admin/master_laptop/cetak_pdf') ?>" class="mb-4 btn btn-sm btn-success">Print PDF</a>
+            </div>
+            <div class="col-md">
+                <form action="" class="w-50">
+                    <div class="input-group input-group-sm">
+                        <input type="text" name="q" id="q" class="form-control form-control-sm">
+                        <button type="submit" class="btn btn-sm btn-primary">Cari</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         <ul class="list-group">
             <?php foreach ($data_master_laptop as $k) { ?>
 
