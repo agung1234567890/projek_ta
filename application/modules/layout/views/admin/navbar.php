@@ -29,7 +29,7 @@
     <li class="nav-item">
       <a class="nav-link btn btn-primary text-white" href="<?= site_url('admin/login/logout') ?>">
         <i class="fas fa-sign-out-alt"></i>
-        long out
+        keluar
       </a>
     </li>
   </ul>
