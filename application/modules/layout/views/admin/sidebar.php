@@ -100,7 +100,7 @@
                     <a href="<?= site_url('admin/login/logout') ?>" class="nav-link btn btn-primary text-white<?= $menu_aktif == 'logout' ? 'active' : '' ?>">
                         <i class="nav-icon fas fa-sign-out-alt"></i>
                         <p>
-                            Long out
+                            Keluar
                         </p>
                     </a>
                 </li>
