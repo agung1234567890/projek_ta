@@ -6,7 +6,7 @@
 <div style="flex: 1;">
     <div class="alert alert-success" style="flex: 1;">
         <b>*Masukkan presentase bobot kepentingan untuk setiap kriteria</b><br>
-        presentase bobot yang diisi harus angka dari 0 sampai 100. Jumlah presentase bobot harus 100
+        presentase bobot yang diisi harus angka dari 0 sampai 100. Jumlah presentase bobot harus = 100
     </div>
     <?php if ($this->session->flashdata('eror')) { ?>
         <div class="alert alert-danger">
@@ -20,7 +20,21 @@
             <div class="card-header text-left">Masukkan Bobot</div>
             <div class="card-body">
                 <form action="" method="POST">
-                    <div class="form-group">
+                    <div class="form-group" style="margin-bottom:50px">
+                        <label for="merk">Merk <?= form_error('merk') ?></label>
+                        <select class="form-control" name="merk" id="merk" style="width:100% !important">
+                            <option value="">- Pilih -</option>
+                            <option value="1" <?= $merk == 1 ? 'selected' : '' ?>>HP</option>
+                            <option value="2" <?= $merk == 2 ? 'selected' : '' ?>>Macbook</option>
+                            <option value="3" <?= $merk == 3 ? 'selected' : '' ?>>Asus</option>
+                            <option value="4" <?= $merk == 4 ? 'selected' : '' ?>>Dell</option>
+                            <option value="5" <?= $merk == 5 ? 'selected' : '' ?>>MSI</option>
+                            <option value="6" <?= $merk == 6 ? 'selected' : '' ?>>Lenovo</option>
+                            <option value="7" <?= $merk == 7 ? 'selected' : '' ?>>Acer</option>
+                            <option value="8" <?= $merk == 8 ? 'selected' : '' ?>>Samsung</option>
+                        </select>
+                    </div>
+                    <!-- <div class="form-group">
                         <label for="harga">Harga <br> (*presentase)</label>
                         <input type="text" onkeyup="isi()" value="<?= $this->input->post('harga') ?>" class="form-control" name="harga" id="harga" style="width:100% !important" placeholder="Masukkkan Nilai 0-100">
                     </div>
@@ -35,7 +49,7 @@
                     <div class="form-group">
                         <label for="processor">Processor <br> (*presentase)</label>
                         <input type="text" onkeyup="isi()" value="<?= $this->input->post('processor') ?>" class="form-control" name="processor" id="processor" style="width:100% !important" placeholder="Masukkkan Nilai 0-100">
-                    </div>
+                    </div> -->
                     <!-- <div class="form-group">
                         <label for="resolusi">Resolusi</label>
                         <input type="text" onkeyup="isi()" value="<?= $this->input->post('resolusi') ?>" class="form-control" name="resolusi" id="resolusi" style="width:100% !important">
