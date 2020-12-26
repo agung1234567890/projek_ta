@@ -49,7 +49,7 @@
                         <input type="text" onkeyup="isi()" value="<?= $this->input->post('vga') ?>" class="form-control" name="vga" id="vga" style="width:100% !important" placeholder="masukkan 20-100">
                     </div>
                     <span id="notif" style="color: red;font-size: 12px;">*Jumlah Keseluruhan Harus = 100.</span><br>
-                    <button disabled type="submit" id="tombol" class="btn btn-sm btn-primary">PROSES</button>
+                    <button disabled type="submit" id="tombol" class="btn btn-sm btn-submit">PROSES</button>
                 </form>
                 <script>
                     isi();
