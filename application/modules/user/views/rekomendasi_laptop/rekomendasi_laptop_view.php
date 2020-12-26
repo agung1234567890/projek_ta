@@ -5,8 +5,8 @@
 </style>
 <div style="flex: 1;">
     <div class="alert alert-success" style="flex: 1;">
-        <b>*Masukkan presentase bobot kepentingan untuk setiap kriteria</b><br>
-        presentase bobot yang diisi harus angka dari 0 sampai 100. Jumlah presentase bobot harus = 100
+        <b>*Masukkan Presentase Bobot Kepentingan Untuk Setiap Kriteria</b><br>
+        presentase harus diisi angka dari 20 sampai 100. Jumlah presentase bobot harus = 100
     </div>
     <?php if ($this->session->flashdata('eror')) { ?>
         <div class="alert alert-danger">
