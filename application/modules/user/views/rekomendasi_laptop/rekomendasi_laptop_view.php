@@ -22,19 +22,19 @@
                 <form action="" method="POST">
                     <div class="form-group">
                         <label for="harga">Harga (Rp)</label>
-                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('harga') ?>" class="form-control" name="harga" id="harga" style="width:100% !important" placeholder="Masukkan Nilai 0-100">
+                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('harga') ?>" class="form-control" name="harga" id="harga" style="width:100% !important" placeholder="Presentase Nilai 0-100">
                     </div>
                     <div class="form-group">
                         <label for="ram">Ram (GB)</label>
-                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('ram') ?>" class="form-control" name="ram" id="ram" style="width:100% !important" placeholder="Masukkan Nilai 0-100">
+                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('ram') ?>" class="form-control" name="ram" id="ram" style="width:100% !important" placeholder="Presentase Nilai 0-100">
                     </div>
                     <div class="form-group">
                         <label for="hdd">Penyimpanan internal (GB)</label>
-                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('hdd') ?>" class="form-control" name="hdd" id="hdd" style="width:100% !important" placeholder="Masukkan Nilai 0-100">
+                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('hdd') ?>" class="form-control" name="hdd" id="hdd" style="width:100% !important" placeholder="Presentase Nilai 0-100">
                     </div>
                     <div class="form-group">
                         <label for="processor">Processor (Ghz)</label>
-                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('processor') ?>" class="form-control" name="processor" id="processor" style="width:100% !important" placeholder="Masukkan Nilai 0-100">
+                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('processor') ?>" class="form-control" name="processor" id="processor" style="width:100% !important" placeholder="Presentase Nilai 0-100">
                     </div>
                     <!-- <div class="form-group">
                         <label for="resolusi">Resolusi</label>
@@ -46,7 +46,7 @@
                     </div> -->
                     <div class="form-group">
                         <label for="vga">VGA Card </label>
-                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('vga') ?>" class="form-control" name="vga" id="vga" style="width:100% !important" placeholder="Masukkan Nilai 0-100">
+                        <input type="text" onkeyup="isi()" value="<?= $this->input->post('vga') ?>" class="form-control" name="vga" id="vga" style="width:100% !important" placeholder="Presentase Nilai 0-100">
                     </div>
                     <span id="notif" style="color: red;font-size: 12px;">*Jumlah Keseluruhan Harus = 100.</span><br>
                     <button disabled type="submit" id="tombol" class="btn btn-sm btn-primary">PROSES</button>
